@@ -1,12 +1,10 @@
-# 🐍 LearnX+ Python Studio 2025/26
-
 ![logo](./images/logo.png)
 
-## 🚀 About
+# 🚀 About
 
 This repository contains teaching materials for our weekly Python meetings. We focus on building strong foundations in scientific computing libraries, suitable for members with beginner to intermediate Python experience.
 
-## 🤖 Structure
+# 🤖 Structure
 
 Materials are organized by week/session:
 
@@ -19,20 +17,20 @@ Week_01_Conda/
 ```
 
 
-## 📚 Topics 
+# 📚 Topics 
 
 A brief overview of the topics we cover is provided below. For more detailed information, please refer to [this PDF](topics-detailed.pdf), or the `README.md` file for each week.
 
 ![Aquirable Skills](./images/topics-covered.png)
 
 
-## ⚙️ Getting Started
+# ⚙️ Getting Started
 
 Below is the workflow for how the lessons will be conducted. Please follow closely.
 
 ![lesson-workflow](./images/lesson-workflow.gif)
 
-### 1. Clone Repository & User Repository 
+## 1. Clone Repository & User Repository 
 - First of all, clone this repository. It will be named `learnx-python-studio-2025-26`.
 
 ```bash
@@ -52,7 +50,9 @@ git init                                                    # initialize git in 
 git remote add origin https://github.com/username/repo.git  # link to your remote repository
 ```
 
-### 2. Pull New Lessons
+---
+
+## 2. Pull New Lessons
 
 - Change directory into `learnx-python-studio-2025-26`.
 ```bash
@@ -67,14 +67,14 @@ git merge origin/main
 ls  # list directory content
 ```
 
-### 3. Copy Lessons Locally
+## 3. Copy Lessons Locally
 
 - Copy the latest lesson into your personal directory `DUPLICATE_DIR` (Bash, ZSH, Powershell):
 ```bash
 cp -R ~/PATH/learnx-python-studio-2025-26/Week_0X_TOPIC/ ~/PATH/DUPLICATE_DIR/
 ```
 
-### 4. Push to Your Own Repository
+## 4. Push to Your Own Repository
 - After completing the lesson in the seperate directory, push to your own repository:
 ```bash
 git status                # check file status
@@ -84,7 +84,9 @@ git status
 git push                  # push to remote repository
 ```
 
-### 5. Create & Update Conda Environment
+---
+
+## 5. Create & Update Conda Environment
 
 - If you do not have a Conda environment yet, create one using `environment.yml` (ensure you are within the same directory as the YML file):
 
@@ -99,7 +101,7 @@ conda env update -f environment.yml --prune
 ```
 
 
-## 📍 Resources
+# 📍 Resources
 
 - [Conda Documentation](https://docs.conda.io/en/latest/)
 - [Jupyter Documentation](https://docs.jupyter.org/en/latest/)
@@ -112,7 +114,7 @@ conda env update -f environment.yml --prune
 - [Learning Scientific Programming with Python (Christian Hill)](https://scipython.com/)
 
 
-## ⚖️ License
+# ⚖️ License
 
 The content of this project is dual-licensed.
 
